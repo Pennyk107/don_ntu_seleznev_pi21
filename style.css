@@ -1,0 +1,203 @@
+.headerstyle{
+    line-break: auto;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px;
+    color: #000;
+    background: #c2c2c2;
+}
+body {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    /*font-family: 'Comfortaa', cursive;*/
+    font-size: 10px;
+    line-height: 2;
+    color: #000;
+    background: #e2dbf1;
+}
+
+footer {
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px;
+
+    color: #000;
+    background: #bebebe;
+}
+
+
+
+.navigator li {
+    display: inline; /* Отображать как строчный элемент */
+    font-size: 12px;
+    margin-right: 100px;
+    margin-left: 200px;/* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+}
+.menu{
+	background: #d3d3d3;
+	text-align: center;
+}
+
+.menu-name{
+	padding-top: 10px;
+	font-size: 40px;
+}
+
+table{
+    border-spacing: 5px; 
+    padding: 2px;
+    border: 5px solid black;
+    margin-left: 0%;
+
+}
+h1 {
+    font-weight: 700; /* то же самое что и normal */
+    text-align: center;
+    line-height: 100%;
+  }
+h2 {
+    font-size: 15;
+    text-align: center;
+    line-height: 0%;
+
+}
+.scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+}
+.scale img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+.photo {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+.photo:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; right: 0; bottom: 5px; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: #07412d;	 /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 15px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 0; /* Параметры рамки */
+}
+
+ .lspasing{
+    letter-spacing: 7px;
+ }
+ .menuSh1{
+	background: #d3d3d3;
+    font-size: 30px;
+ }
+
+.tablef{
+    margin-left: 80%;
+    padding-left: 1px;
+    padding-right: -5px;
+
+}
+.container {
+   width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.page-reg {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page-reg h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+}
+
+.form-reg {
+    min-width: 800px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: white;
+    margin-bottom: 400px;
+}
+
+.form-reg p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-reg span {
+    display: inline;
+}
+
+fieldset {
+    border: 0;
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+label {
+    width: 450px;
+    display: inline-block;
+    margin: 1.5px;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+}
+
+input:focus {
+    background: white;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+select {
+    width: 254px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 15px;
+}
+
+input[type=reset],
+input[type=submit] {
+    width: 100%;
+    border: 1px solid black;
+    background: black;
+    color: white
+}
+
+
+input[type=reset]:hover,
+input[type=submit]:hover {
+
+    background: white;
+    color: black;
+}
